@@ -32,7 +32,7 @@ The new navigation point "Branches -> Overview" should be between customers and 
 
 **Plugin name:** SasBranches
 
-**Entity Name**: `sas_branche`
+**Entity Name**: `sas_branch`
 
 The following data should be maintained:
 
