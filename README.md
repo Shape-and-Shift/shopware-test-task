@@ -54,6 +54,9 @@ The following data should be maintained:
 All data (name, street, ...) should be displayed on the overview page.
 There's no CMS element needed, just the entity with its admin module.
 
+The admin module should contain the overview page, detail & create page. Again: Always have a look at the Core, how Shopware is doing it.
+If you're stuck or think you're going the wrong way: Ask 🗣️
+
 **Make sure to integrate the error handling for the fields which are required**
 You should always take a look at the Core, how Shopware is doing it.
 Regarding the error handling within an admin module, take a look at the `mapPropertyErrors` computed property -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/index.js#L52-L67 which is binded to the vue component -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/sw-customer-address-form.html.twig#L8
