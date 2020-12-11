@@ -1,4 +1,4 @@
-#### Shopware 6 Branches Entity Test Task
+# Shopware 6 Branches Entity Test Task
 
 first of all  you very much for your job application. 
 
