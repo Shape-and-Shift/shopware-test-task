@@ -31,7 +31,8 @@ You can find the documentation under https://docs.shopware.com/en/shopware-platf
 The new navigation point "Branches -> Overview" should be between customers and content within the administartion.
 
 **Plugin name:** SasBranches
-**Entity Name**: `sas_branches`
+
+**Entity Name**: `sas_branche`
 
 The following data should be maintained:
 
