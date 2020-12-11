@@ -20,7 +20,7 @@ You can find the documentation under https://docs.shopware.com/en/shopware-platf
 - [Installation of the development template](https://docs.shopware.com/en/shopware-platform-dev-en/system-guide/installation?category=shopware-platform-dev-en/system-guide)
 - [Difference between the development and production template](https://www.p16r.nl/2020-08-28-shopware-6-development-versus-production-template/)
 
-> The development template offers your some development helpers such a watcher like `psh.phar administration:watch` for the administration or a `psh.phar storefront:hot-proxy` server for the storefront. You can get all available commands with `./psh.phar`.
+> The development template offers you some development helpers such as a watcher like `psh.phar administration:watch` for the administration or a `psh.phar storefront:hot-proxy` server for the storefront. You can get all available commands with `./psh.phar`.
 
 #### Helpfulp links:
 - [Developer Video course](https://academy.shopware.com/collections?category=developer-sw6)
@@ -84,7 +84,7 @@ We will check your code, quality and collaborating with you.
 ###  Why we're going this way?
 You can prove your skills and showing us your willingness, so we could compare your results with our code requirements. It is the quality that matters and we want to see your individual responsibility. I hope, this way is ok for you. If you have any questions, don't hesitate to contact me.
 
-I know Shopawre 6 is completly new for you and it may take some time to dive into it. So better ask if you don't know something instead of digging for hours and hours.
+I know Shopware 6 is completly new for you and it may take some time to dive into it. So better ask if you don't know something instead of digging for hours and hours.
 
 Looking forward hearing back from you.
 As mentioned above, please use for further communication hello@shapeandshift.dev
