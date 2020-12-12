@@ -61,9 +61,9 @@ If you're stuck or think you're going the wrong way: Ask 🗣️
 You should always take a look at the Core, how Shopware is doing it.
 Regarding the error handling within an admin module, take a look at the `mapPropertyErrors` computed property within any core admin component, for example the [sw-customer-address-form component](https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/index.js#L52-L67 )
 
-If you take a look at the [map-error-serice](https://github.com/shopware/platform/blob/c5a981c9ca9ede2afe8eae5b0f0a6c861000b79c/src/Administration/Resources/app/administration/src/app/service/map-errors.service.js#L20) you will see that you have to pass your `entityName` and followed by your properties which representing the `propertyName` from your definition within an array.
+If you take a look at the [map-error-serice](https://github.com/shopware/platform/blob/c5a981c9ca9ede2afe8eae5b0f0a6c861000b79c/src/Administration/Resources/app/administration/src/app/service/map-errors.service.js#L20) you will see that you have to pass your `entityName` followed by your properties which are representing the `propertyName` from your [entity definition](https://github.com/shopware/platform/blob/c4abfdc17d4583d3efd76498be395f5ec376828d/src/Core/Content/Product/Aggregate/ProductTranslation/ProductTranslationDefinition.php#L52-L59) within an array.
 
-The `mapPropertyErrors` are basically mapped to your Entity Definition `FieldCollection` which you pass if you take a look at the [Product Translation Entity](https://github.com/shopware/platform/blob/c4abfdc17d4583d3efd76498be395f5ec376828d/src/Core/Content/Product/Aggregate/ProductTranslation/ProductTranslationDefinition.php#L53) for example, where you pass the `new Required()` to the `addFlags` method.
+The `mapPropertyErrors` within your admin vue component are basically mapped to your Entity Definitions within the `FieldCollection`. If you take a look at the [Product Translation Entity](https://github.com/shopware/platform/blob/c4abfdc17d4583d3efd76498be395f5ec376828d/src/Core/Content/Product/Aggregate/ProductTranslation/ProductTranslationDefinition.php#L53) for example, where you pass the `new Required()` to the `addFlags` method.
 
 #### Translations
 
