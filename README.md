@@ -24,6 +24,7 @@ You can find the documentation under https://docs.shopware.com/en/shopware-platf
 
 #### Helpfulp links:
 - [Developer Video course](https://academy.shopware.com/collections?category=developer-sw6)
+- [Shopware DAL](https://docs.shopware.com/en/shopware-platform-dev-en/developer-guide/database?category=shopware-platform-dev-en/developer-guide)
 - [Bundle example: An InDepth guide](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/indepth-guide-bundle)
 - [Vue Component library](https://component-library.shopware.com/)
 - [Create an admin module](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/custom-module?category=shopware-platform-dev-en/how-to)
