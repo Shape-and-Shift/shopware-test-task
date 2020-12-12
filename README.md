@@ -68,7 +68,7 @@ The `mapPropertyErrors` within your admin vue component are basically mapped to 
 #### Translations
 
 Also make sure to use [translation snippets](https://docs.shopware.com/en/shopware-platform-dev-en/developer-guide/storefront/snippets) for labels, placeholders and text. 
-You can again - Take a look at the Core code how it's done, for example here -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/sw-customer-address-form.html.twig#L10
+You can again - Take a look at the Core code how it's done, for example within the [sw-customer-address-form component](https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/sw-customer-address-form.html.twig#L10)
 
 ### What we expect
 Get the best out of you! Show what you are capable of. But don't do over engineering! Our goal is to see, if you're able to implement the requirements in a simple way but in high quality, which is good to maintain and improve in the future. We want to see your approach and see at which stage you are in your career currently to become an excellent developer.
