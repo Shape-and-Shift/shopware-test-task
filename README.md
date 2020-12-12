@@ -53,6 +53,12 @@ The following data should be maintained:
 *Dummy image, the sections are not correct here*
 
 All data (name, street, ...) should be displayed on the overview page.
+For the overview page please use the [sw-entity-listing](https://component-library.shopware.com/components/sw-entity-listing) component.
+I can't say it enough - Always take a look at the existing core files, for example within the [sw-customer-list](https://github.com/shopware/platform/blob/master/src/Administration/Resources/app/administration/src/module/sw-customer/page/sw-customer-list/sw-customer-list.html.twig#L54) to see how the components and code works together.
+
+![](https://res.cloudinary.com/dtgdh7noz/image/upload/v1607774042/Bildschirmfoto_2020-12-12_um_13.53.02_vfdvw9.png)
+*Overview page dummy*
+
 There's no CMS element needed, just the entity with its admin module.
 
 The admin module should contain the overview page, detail & create page. Again: Always have a look at the Core, how Shopware is doing it.
