@@ -29,9 +29,13 @@ You can find the documentation under https://docs.shopware.com/en/shopware-platf
 - [Vue Component library](https://component-library.shopware.com/)
 - [Create an admin module](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/custom-module?category=shopware-platform-dev-en/how-to)
 
-The new navigation point "Branches -> Overview" should be between customers and content within the administartion.
+The new navigation point "Branches -> Overview" should be between customers and content within the administartion. 
+It's described within the documentation [how you add this navigation](https://docs.shopware.com/en/shopware-platform-dev-en/how-to/custom-module#navigation) within your admin module. If you wonder how you can specify the order of the menu, take a look at some core module how it's done.
+
+Now let's get started:
 
 **Plugin name:** SasBranches
+*You can run `bin/console plugin:create` to create your plugin via the CLI*
 
 **Entity Name**: `sas_branch`
 
