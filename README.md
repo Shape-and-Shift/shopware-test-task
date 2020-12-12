@@ -57,11 +57,15 @@ There's no CMS element needed, just the entity with its admin module.
 The admin module should contain the overview page, detail & create page. Again: Always have a look at the Core, how Shopware is doing it.
 If you're stuck or think you're going the wrong way: Ask 🗣️
 
-#### Make sure to integrate the error handling for the fields which are required
+#### Handling errors and required fields
 You should always take a look at the Core, how Shopware is doing it.
-Regarding the error handling within an admin module, take a look at the `mapPropertyErrors` computed property -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/index.js#L52-L67 
+Regarding the error handling within an admin module, take a look at the `mapPropertyErrors` computed property within any core admin component, for example the [sw-customer-address-form component](https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/index.js#L52-L67 )
 
-which is binded to the vue component -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/sw-customer-address-form.html.twig#L8
+If you take a look at the [map-error-serice](https://github.com/shopware/platform/blob/c5a981c9ca9ede2afe8eae5b0f0a6c861000b79c/src/Administration/Resources/app/administration/src/app/service/map-errors.service.js#L20) you will see that you have to pass your `entityName` and followed by your properties which representing the `propertyName` from your definition within an array.
+
+The `mapPropertyErrors` are basically mapped to your Entity Definition `FieldCollection` which you pass if you take a look at the [Product Translation Entity](https://github.com/shopware/platform/blob/c4abfdc17d4583d3efd76498be395f5ec376828d/src/Core/Content/Product/Aggregate/ProductTranslation/ProductTranslationDefinition.php#L53) for example, where you pass the `new Required()` to the `addFlags` method.
+
+#### Translations
 
 Also make sure to use [translation snippets](https://docs.shopware.com/en/shopware-platform-dev-en/developer-guide/storefront/snippets) for labels, placeholders and text. 
 You can again - Take a look at the Core code how it's done, for example here -> https://github.com/shopware/platform/blob/605efce89aa6be1566e842ed0582c4810f331c70/src/Administration/Resources/app/administration/src/module/sw-customer/component/sw-customer-address-form/sw-customer-address-form.html.twig#L10
