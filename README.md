@@ -35,7 +35,7 @@ It's described within the documentation [how you add this navigation](https://do
 Now let's get started:
 
 **Plugin name:** SasBranches
-*You can run `bin/console plugin:create` to create your plugin via the CLI*
+>You can run `bin/console plugin:create` to create your plugin via the CLI
 
 **Entity Name**: `sas_branch`
 
