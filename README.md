@@ -8,6 +8,13 @@ Also, what is your salary expectations and when would be the earliest possible d
 
 Please use for further communication hello@shapeandshift.dev
 
+### What are we acutally doing?
+As a small team we're working within the background for primarly German [Shopware 6](https://www.shopware.com/en/) agencies as an experienced external team.
+[Shopware 6](https://www.shopware.com/en/) is a headless E-Commerce System based on Symfony 4 & Vue.js for the administration
+and Bootstrap, ES6 and Twig for the Storefront.
+
+You can head over to the [Shopware 6 Documentation](https://docs.shopware.com/en/shopware-platform-dev-en) to take a closer look into the System itself.
+
 ### The Task
 The test task is to create an entity to administrate branches within the administration.
 You have to create the Shopware Plugin, Entity and last but not least the actual administration vue component.
